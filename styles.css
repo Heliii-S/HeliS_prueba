@@ -1,16 +1,25 @@
 *{
     background-color: pink;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 h1{
     color: palevioletred;
+    font-family: "Isometra", serif;
+    font-style: normal;
 }
 
-h3,h4,p{
-    color:rebeccapurple;
+h2{
+    color:rgb(201, 42, 172);
     font-weight: bold;
+    font-family: "Isometra", serif;
+    font-weight: 100;
+}
+
+h4,p{
+    color:rgb(124, 96, 159);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .contenedor{
@@ -40,11 +49,15 @@ img{
 }
 
 .imagencircular{
-    margin-top: 40px;
+    margin-top: 100px;
+}
+
+.textomedio{
+    color:rgb(171, 92, 106);
 }
 
 a{
     text-decoration: none;
-    color:rebeccapurple;
-    font-weight: bold;
+    color:rgb(201, 42, 172);
+    font-family: 'Courier New', Courier, monospace;
 }
