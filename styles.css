@@ -9,6 +9,7 @@ h1{
 
 h3,h4,p{
     color:rebeccapurple;
+    font-weight: bold;
 }
 
 .contenedor{
@@ -19,4 +20,24 @@ h3,h4,p{
 .columna{
     flex:1;
     padding:15px;
+}
+
+.hr1{
+    height:3px;
+    background-color: rgb(238, 137, 154);
+    border:none;
+}
+
+.hr2{
+    height:3px;
+    background-color: rgb(231, 92, 115);
+    border:none;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.imagencircular{
+    margin-top: 40px;
 }
