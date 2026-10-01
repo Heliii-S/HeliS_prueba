@@ -1,0 +1,22 @@
+*{
+    background-color: pink;
+    text-align: center;
+}
+
+h1{
+    color: palevioletred;
+}
+
+h3,h4,p{
+    color:rebeccapurple;
+}
+
+.contenedor{
+    display: flex;
+    gap:20px;
+}
+
+.columna{
+    flex:1;
+    padding:15px;
+}
