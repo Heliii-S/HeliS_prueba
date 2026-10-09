@@ -1,0 +1,63 @@
+*{
+    background-color: pink;
+    text-align: center;
+}
+
+h1{
+    color: palevioletred;
+    font-family: "Isometra", serif;
+    font-style: normal;
+}
+
+h2{
+    color:rgb(201, 42, 172);
+    font-weight: bold;
+    font-family: "Isometra", serif;
+    font-weight: 100;
+}
+
+h4,p{
+    color:rgb(124, 96, 159);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedor{
+    display: flex;
+    gap:20px;
+}
+
+.columna{
+    flex:1;
+    padding:15px;
+}
+
+.hr1{
+    height:3px;
+    background-color: rgb(238, 137, 154);
+    border:none;
+}
+
+.hr2{
+    height:3px;
+    background-color: rgb(231, 92, 115);
+    border:none;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.imagencircular{
+    margin-top: 100px;
+}
+
+.textomedio{
+    color:rgb(171, 92, 106);
+}
+
+a{
+    text-decoration: none;
+    color:rgb(201, 42, 172);
+    font-family: 'Courier New', Courier, monospace;
+}
