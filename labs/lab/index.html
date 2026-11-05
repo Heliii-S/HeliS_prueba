@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RANPO</title>
+</head>
+<body id="fondo"> 
+    <div class="contenedor">
+        <div class="columna">
+            <h1>Cambia la foto con los botones</h1>
+            <h2 id="n"></h2>
+            <h3 id="c"></h2>
+            <br>
+            <img src="ranpoog.png" id="img">
+        </div>
+        <div class="columna">
+            <button type="button"  onclick=" contador++, document.getElementById('img').src='ranpopato.png', document.getElementById('fondo').style.backgroundColor='#ffca4e', document.getElementById('n').innerHTML= 'Elegiste la img: #1',document.getElementById('c').innerHTML= '# clicks= '+contador"><img src="pato.svg"></button>
+            <button type="button"  onclick=" contador++, document.getElementById('img').src='ranpogato.png', document.getElementById('fondo').style.backgroundColor='#e180ac', document.getElementById('n').innerHTML= 'Elegiste la img: #2',document.getElementById('c').innerHTML= '# clicks= '+contador"><img src="gato.svg"></button>
+            <button type="button"  onclick="contador++, document.getElementById('img').src='ranpocel.png', document.getElementById('fondo').style.backgroundColor='#c1afc6', document.getElementById('n').innerHTML= 'Elegiste la img: #3',document.getElementById('c').innerHTML= '# clicks= '+contador"><img src="tel.svg"></button>
+            <button type="button"  onclick="contador++, document.getElementById('img').src='ranpojoven.png', document.getElementById('fondo').style.backgroundColor='#a5d8dc', document.getElementById('n').innerHTML= 'Elegiste la img: #4',document.getElementById('c').innerHTML= '# clicks= '+contador"><img src="reloj.svg"></button>
+            <button type="button"  onclick="contador++, document.getElementById('img').src='ranpoog.png', document.getElementById('fondo').style.backgroundColor='#c4d69e', document.getElementById('n').innerHTML= 'Elegiste la img: #5',document.getElementById('c').innerHTML= '# clicks= '+contador"><img src="lupa.svg"></button>
+            <button type="button"  onclick="generaraleatorio()"><img src="flecha.svg"></button>
+            <script src="codigo.js"></script>
+        </div>
+    </div>
+</body>
+</html>

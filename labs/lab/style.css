@@ -1,0 +1,23 @@
+body{
+    background-color: #c4d69e;
+    color: #6d727f;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedor{
+    display: flex;
+    gap:20px;
+}
+
+.columna{
+    flex:1;
+    padding:15px;
+}
+
+button{
+    border-style: none;
+}
+
+button:hover{
+    transform: translateY(-10px);
+}
