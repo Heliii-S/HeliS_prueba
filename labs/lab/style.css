@@ -21,3 +21,7 @@ button{
 button:hover{
     transform: translateY(-10px);
 }
+
+a{
+    text-decoration: none;
+}
