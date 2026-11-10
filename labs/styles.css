@@ -9,17 +9,14 @@ body{
 }
 
 img{
-    margin-bottom: 10px;
-}
-
-img:hover{
-    transform: translateY(-10px);
+    margin-bottom: -100px;
 }
 
 div{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
+    margin-bottom: 40px;
 }
 
 a{
